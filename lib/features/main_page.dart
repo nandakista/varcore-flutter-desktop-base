@@ -58,18 +58,18 @@ class _MainPageState extends State<MainPage> {
   List<NavigationPaneItem> _buildPaneItem() => [
     PaneItem(
       icon: const Icon(FluentIcons.home),
-      title: const Text('Beranda'),
+      title: const Text('Home'),
     ),
     PaneItem(
       icon: const Icon(FluentIcons.activate_orders),
-      title: const Text('Produk'),
+      title: const Text('Product'),
       infoBadge: const InfoBadge(
         source: Text('9'),
       ),
     ),
     PaneItem(
       icon: const Icon(FluentIcons.add_to_shopping_list),
-      title: const Text('Transaksi'),
+      title: const Text('Transaction'),
     ),
     PaneItem(
       icon: const Icon(FluentIcons.local_admin),

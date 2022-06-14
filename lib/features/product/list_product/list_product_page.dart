@@ -10,7 +10,7 @@ class ListProductPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ContentWrapper(
-      title: 'Daftar Produk',
+      title: 'Product List',
       canBack: false,
       floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, AddProductPage.route),
@@ -43,16 +43,16 @@ class ListProductPage extends StatelessWidget {
             height: 60,
             child: Image(
                 image: AssetImage(
-                  "assets/img_register.png",
+                  'assets/images/img_register.png',
                 ),
                 fit: BoxFit.cover),
           ),
-          const SizedBox(width: 15),
+          const SizedBox(width: 24),
           Column(
             children: [
               Text(
                 'Name',
-                style: AppStyle.title2,
+                style: AppStyle.subtitle2,
               ),
               const Text('Rp. 0,00'),
             ],

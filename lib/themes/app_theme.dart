@@ -15,7 +15,7 @@ class AppTheme {
       return ThemeData(
         primaryColor: AppColors.materialPrimary,
         primarySwatch: AppColors.materialPrimary,
-        accentColor: AppColors.primary,
+        accentColor: AppColors.secondary,
         fontFamily: "Poppins",
         brightness: Brightness.light,
         appBarTheme: const AppBarTheme(
@@ -30,7 +30,7 @@ class AppTheme {
       return ThemeData(
         primaryColor: AppColors.materialPrimary,
         primarySwatch: AppColors.materialPrimary,
-        accentColor: AppColors.primary,
+        accentColor: AppColors.secondary,
         fontFamily: "Poppins",
         brightness: Brightness.dark,
         appBarTheme: const AppBarTheme(

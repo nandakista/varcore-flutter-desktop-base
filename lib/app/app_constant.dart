@@ -1,6 +1,8 @@
 class AppConst {
   static const double defaultMargin = 30;
-  static const appName = 'Varcore Desktop';
+  static const String appName = 'Varcore Desktop';
+  static const String appTag = 'Create customize your Desktop Application!';
+  static const String copyright = 'Ⓒ 2022 Creativins.com. All rights reserved.';
 
   /* Validator
   ... Size Validator

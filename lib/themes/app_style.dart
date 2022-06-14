@@ -24,7 +24,7 @@ class AppStyle {
   static TextStyle link = const TextStyle(fontSize: 18, color: Colors.blue);
 
   // Font Weight
-  static FontWeight superBold = FontWeight.w600;
+  static FontWeight superBold = FontWeight.w900;
   static FontWeight semiBold = FontWeight.w600;
   static FontWeight mediumWeight = FontWeight.w500;
   static FontWeight regularWeight = FontWeight.w400;
