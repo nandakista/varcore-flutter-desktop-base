@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
         pane: NavigationPane(
             selected: _currentIndex,
             onChanged: (i) => setState(() => _currentIndex = i),
-            displayMode: PaneDisplayMode.auto,
+            displayMode: _buildPaneStyle(),
             indicator: const EndNavigationIndicator(),
             items: _buildPaneItem()),
         content: NavigationBody.builder(
@@ -53,6 +53,17 @@ class _MainPageState extends State<MainPage> {
         ),
       ),
     );
+  }
+
+  PaneDisplayMode _buildPaneStyle() {
+    var screenWidth = MediaQuery.of(context).size.width;
+    if(screenWidth<600) {
+      return PaneDisplayMode.top;
+    } else if(screenWidth<900) {
+      return PaneDisplayMode.compact;
+    } else {
+      return PaneDisplayMode.open;
+    }
   }
 
   List<NavigationPaneItem> _buildPaneItem() => [

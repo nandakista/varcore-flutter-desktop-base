@@ -18,17 +18,17 @@ class AboutPage extends StatelessWidget {
           children: [
 
             Text(AppConst.appName, style: AppStyle.headline1),
-            Text(AppConst.appTag),
-            SizedBox(height: 10),
-            Text('This is Base Code for Desktop Application Project using Flutter Framework\n'
+            const Text(AppConst.appTag),
+            const SizedBox(height: 10),
+            const Text('This is Base Code for Desktop Application Project using Flutter Framework\n'
                 'The Code was developed using : \n'
                 '1. Fluent UI\n'
                 '2. Dio\n'
                 '3. Moor Database\n'),
-            Spacer(),
-            Text('Created by Varcant', style: TextStyle(fontWeight: FontWeight.w100),),
-            SizedBox(height: 12),
-            Text(AppConst.copyright)
+            const Spacer(),
+            const Text('Created by Varcant', style: TextStyle(fontWeight: FontWeight.w100),),
+            const SizedBox(height: 12),
+            const Text(AppConst.copyright)
           ],
         ),
       ),

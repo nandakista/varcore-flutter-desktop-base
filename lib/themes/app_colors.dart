@@ -1,4 +1,3 @@
-import 'package:fluent_ui/fluent_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -7,7 +6,7 @@ class AppColors {
   static const Color primary = Color(0xff42aaff);
   static const Color disabledPrimary = Color(0xffCAFFD9);
   static const Color secondary = Color(0xff42aaff);
-  static const Color accent = Color(0xffCAFFD9);
+  static const Color accent = Color(0xff00ffe4);
   // System
   static const Color systemGrey = Color(0xffF1F1F1);
   static const Color systemBlack = Color(0xff141414);

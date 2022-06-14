@@ -62,13 +62,3 @@ class AppTheme {
     }
   }
 }
-
-
-
-// extension DarkMode on BuildContext {
-//   bool isDarkMode() {
-//     // final brightness = MediaQuery.of(this).platformBrightness;
-//     final brightness = SystemTheme.isDarkMode;
-//     return brightness == Brightness.dark;
-//   }
-// }
