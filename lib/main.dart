@@ -6,12 +6,14 @@ import 'package:desktop_base/app/app_services.dart';
 import 'package:desktop_base/features/main_page.dart';
 import 'package:desktop_base/helper/general_function.dart';
 import 'package:desktop_base/themes/app_theme.dart';
+import 'package:desktop_window/desktop_window.dart';
 import 'package:fluent_ui/fluent_ui.dart' as fluent;
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await DesktopWindow.setMinWindowSize(const Size(450,600));
   HttpOverrides.global = MyHttpOverrides();
   await AppServices.init();
   await GetStorage.init();

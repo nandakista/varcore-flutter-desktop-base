@@ -59,7 +59,7 @@ class _MainPageState extends State<MainPage> {
     var screenWidth = MediaQuery.of(context).size.width;
     if(screenWidth<600) {
       return PaneDisplayMode.top;
-    } else if(screenWidth<900) {
+    } else if(screenWidth<850) {
       return PaneDisplayMode.compact;
     } else {
       return PaneDisplayMode.open;
