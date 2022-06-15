@@ -90,11 +90,11 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.varcore" "\0"
-            VALUE "FileDescription", "desktop_base" "\0"
+            VALUE "FileDescription", "Varcore Base Code for Desktop Apps" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "desktop_base" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.varcore. All rights reserved." "\0"
-            VALUE "OriginalFilename", "desktop_base.exe" "\0"
+            VALUE "InternalName", "Desktop Base" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 Creativins.com. All rights reserved." "\0"
+            VALUE "OriginalFilename", "Varcore.exe" "\0"
             VALUE "ProductName", "desktop_base" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
